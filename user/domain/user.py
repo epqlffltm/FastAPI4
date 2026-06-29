@@ -1,0 +1,13 @@
+#user/domain/user.py
+
+from dataclasses import dataclass
+from datetime import datetime
+
+@dataclass
+class User:
+    id: str
+    name: str
+    emali: str
+    password: str
+    created_at: str
+    updated_at: str
